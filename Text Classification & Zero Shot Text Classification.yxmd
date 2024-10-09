@@ -1,0 +1,1256 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">ecommerceDataset.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>10000</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ecommerceDataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Label" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Description" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_3" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_4" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_5" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_6" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_7" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_8" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_9" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_10" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_11" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_12" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_13" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_14" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_15" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_16" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_17" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_18" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_19" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_20" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_21" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_22" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_23" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_24" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_25" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_26" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_27" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_28" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_29" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_30" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_31" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_32" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_33" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_34" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_35" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_36" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_37" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_38" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_39" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_40" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_41" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_42" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_43" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_44" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_45" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_46" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_47" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_48" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_49" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_50" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_51" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_52" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_53" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_54" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_55" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_56" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_57" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_58" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_59" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_60" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_61" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_62" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_63" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_64" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_65" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_66" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_67" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_68" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_69" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_70" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_71" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_72" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_73" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_74" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_75" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_76" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_77" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_78" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_79" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_80" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_81" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_82" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_83" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_84" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_85" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_86" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_87" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_88" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_89" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_90" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_91" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_92" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_93" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_94" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_95" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_96" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_97" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_98" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_99" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_100" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_101" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_102" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_103" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_104" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_105" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_106" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_107" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_108" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_109" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_110" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_111" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_112" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_113" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_114" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_115" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_116" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_117" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_118" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_119" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_120" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_121" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_122" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_123" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_124" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_125" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_126" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_127" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_128" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_129" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_130" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_131" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_132" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_133" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_134" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_135" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_136" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_137" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_138" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_139" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_140" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_141" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_142" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_143" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_144" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_145" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_146" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_147" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_148" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_149" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_150" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_151" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_152" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_153" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_154" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_155" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_156" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_157" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_158" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_159" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_160" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_161" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_162" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_163" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_164" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_165" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_166" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_167" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_168" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_169" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_170" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_171" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_172" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_173" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_174" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_175" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_176" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_177" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_178" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_179" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_180" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_181" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_182" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_183" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_184" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_185" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_186" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_187" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_188" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_189" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_190" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_191" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_192" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_193" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_194" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_195" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_196" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_197" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_198" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_199" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_200" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_201" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_202" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_203" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+            <Field name="Field_204" size="10000" source="File: C:\Users\rachel.kast\OneDrive - alteryx.com\Desktop\customers\Internal - Blogs\Supporting Files - text classification\ecommerceDataset.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="102" y="234" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Set field length = 10000</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="210" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNull</Operator>
+            <Field>Field_3</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-01-11 15:11:25</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-01-11 15:11:25</StartDate>
+              <EndDate>2024-01-11 15:11:25</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([Field_3])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Description" selected="True" />
+            <SelectField field="Label" selected="True" />
+            <SelectField field="Field_3" selected="False" />
+            <SelectField field="Field_4" selected="False" />
+            <SelectField field="Field_5" selected="False" />
+            <SelectField field="Field_6" selected="False" />
+            <SelectField field="Field_7" selected="False" />
+            <SelectField field="Field_8" selected="False" />
+            <SelectField field="Field_9" selected="False" />
+            <SelectField field="Field_10" selected="False" />
+            <SelectField field="Field_11" selected="False" />
+            <SelectField field="Field_12" selected="False" />
+            <SelectField field="Field_13" selected="False" />
+            <SelectField field="Field_14" selected="False" />
+            <SelectField field="Field_15" selected="False" />
+            <SelectField field="Field_16" selected="False" />
+            <SelectField field="Field_17" selected="False" />
+            <SelectField field="Field_18" selected="False" />
+            <SelectField field="Field_19" selected="False" />
+            <SelectField field="Field_20" selected="False" />
+            <SelectField field="Field_21" selected="False" />
+            <SelectField field="Field_22" selected="False" />
+            <SelectField field="Field_23" selected="False" />
+            <SelectField field="Field_24" selected="False" />
+            <SelectField field="Field_25" selected="False" />
+            <SelectField field="Field_26" selected="False" />
+            <SelectField field="Field_27" selected="False" />
+            <SelectField field="Field_28" selected="False" />
+            <SelectField field="Field_29" selected="False" />
+            <SelectField field="Field_30" selected="False" />
+            <SelectField field="Field_31" selected="False" />
+            <SelectField field="Field_32" selected="False" />
+            <SelectField field="Field_33" selected="False" />
+            <SelectField field="Field_34" selected="False" />
+            <SelectField field="Field_35" selected="False" />
+            <SelectField field="Field_36" selected="False" />
+            <SelectField field="Field_37" selected="False" />
+            <SelectField field="Field_38" selected="False" />
+            <SelectField field="Field_39" selected="False" />
+            <SelectField field="Field_40" selected="False" />
+            <SelectField field="Field_41" selected="False" />
+            <SelectField field="Field_42" selected="False" />
+            <SelectField field="Field_43" selected="False" />
+            <SelectField field="Field_44" selected="False" />
+            <SelectField field="Field_45" selected="False" />
+            <SelectField field="Field_46" selected="False" />
+            <SelectField field="Field_47" selected="False" />
+            <SelectField field="Field_48" selected="False" />
+            <SelectField field="Field_49" selected="False" />
+            <SelectField field="Field_50" selected="False" />
+            <SelectField field="Field_51" selected="False" />
+            <SelectField field="Field_52" selected="False" />
+            <SelectField field="Field_53" selected="False" />
+            <SelectField field="Field_54" selected="False" />
+            <SelectField field="Field_55" selected="False" />
+            <SelectField field="Field_56" selected="False" />
+            <SelectField field="Field_57" selected="False" />
+            <SelectField field="Field_58" selected="False" />
+            <SelectField field="Field_59" selected="False" />
+            <SelectField field="Field_60" selected="False" />
+            <SelectField field="Field_61" selected="False" />
+            <SelectField field="Field_62" selected="False" />
+            <SelectField field="Field_63" selected="False" />
+            <SelectField field="Field_64" selected="False" />
+            <SelectField field="Field_65" selected="False" />
+            <SelectField field="Field_66" selected="False" />
+            <SelectField field="Field_67" selected="False" />
+            <SelectField field="Field_68" selected="False" />
+            <SelectField field="Field_69" selected="False" />
+            <SelectField field="Field_70" selected="False" />
+            <SelectField field="Field_71" selected="False" />
+            <SelectField field="Field_72" selected="False" />
+            <SelectField field="Field_73" selected="False" />
+            <SelectField field="Field_74" selected="False" />
+            <SelectField field="Field_75" selected="False" />
+            <SelectField field="Field_76" selected="False" />
+            <SelectField field="Field_77" selected="False" />
+            <SelectField field="Field_78" selected="False" />
+            <SelectField field="Field_79" selected="False" />
+            <SelectField field="Field_80" selected="False" />
+            <SelectField field="Field_81" selected="False" />
+            <SelectField field="Field_82" selected="False" />
+            <SelectField field="Field_83" selected="False" />
+            <SelectField field="Field_84" selected="False" />
+            <SelectField field="Field_85" selected="False" />
+            <SelectField field="Field_86" selected="False" />
+            <SelectField field="Field_87" selected="False" />
+            <SelectField field="Field_88" selected="False" />
+            <SelectField field="Field_89" selected="False" />
+            <SelectField field="Field_90" selected="False" />
+            <SelectField field="Field_91" selected="False" />
+            <SelectField field="Field_92" selected="False" />
+            <SelectField field="Field_93" selected="False" />
+            <SelectField field="Field_94" selected="False" />
+            <SelectField field="Field_95" selected="False" />
+            <SelectField field="Field_96" selected="False" />
+            <SelectField field="Field_97" selected="False" />
+            <SelectField field="Field_98" selected="False" />
+            <SelectField field="Field_99" selected="False" />
+            <SelectField field="Field_100" selected="False" />
+            <SelectField field="Field_101" selected="False" />
+            <SelectField field="Field_102" selected="False" />
+            <SelectField field="Field_103" selected="False" />
+            <SelectField field="Field_104" selected="False" />
+            <SelectField field="Field_105" selected="False" />
+            <SelectField field="Field_106" selected="False" />
+            <SelectField field="Field_107" selected="False" />
+            <SelectField field="Field_108" selected="False" />
+            <SelectField field="Field_109" selected="False" />
+            <SelectField field="Field_110" selected="False" />
+            <SelectField field="Field_111" selected="False" />
+            <SelectField field="Field_112" selected="False" />
+            <SelectField field="Field_113" selected="False" />
+            <SelectField field="Field_114" selected="False" />
+            <SelectField field="Field_115" selected="False" />
+            <SelectField field="Field_116" selected="False" />
+            <SelectField field="Field_117" selected="False" />
+            <SelectField field="Field_118" selected="False" />
+            <SelectField field="Field_119" selected="False" />
+            <SelectField field="Field_120" selected="False" />
+            <SelectField field="Field_121" selected="False" />
+            <SelectField field="Field_122" selected="False" />
+            <SelectField field="Field_123" selected="False" />
+            <SelectField field="Field_124" selected="False" />
+            <SelectField field="Field_125" selected="False" />
+            <SelectField field="Field_126" selected="False" />
+            <SelectField field="Field_127" selected="False" />
+            <SelectField field="Field_128" selected="False" />
+            <SelectField field="Field_129" selected="False" />
+            <SelectField field="Field_130" selected="False" />
+            <SelectField field="Field_131" selected="False" />
+            <SelectField field="Field_132" selected="False" />
+            <SelectField field="Field_133" selected="False" />
+            <SelectField field="Field_134" selected="False" />
+            <SelectField field="Field_135" selected="False" />
+            <SelectField field="Field_136" selected="False" />
+            <SelectField field="Field_137" selected="False" />
+            <SelectField field="Field_138" selected="False" />
+            <SelectField field="Field_139" selected="False" />
+            <SelectField field="Field_140" selected="False" />
+            <SelectField field="Field_141" selected="False" />
+            <SelectField field="Field_142" selected="False" />
+            <SelectField field="Field_143" selected="False" />
+            <SelectField field="Field_144" selected="False" />
+            <SelectField field="Field_145" selected="False" />
+            <SelectField field="Field_146" selected="False" />
+            <SelectField field="Field_147" selected="False" />
+            <SelectField field="Field_148" selected="False" />
+            <SelectField field="Field_149" selected="False" />
+            <SelectField field="Field_150" selected="False" />
+            <SelectField field="Field_151" selected="False" />
+            <SelectField field="Field_152" selected="False" />
+            <SelectField field="Field_153" selected="False" />
+            <SelectField field="Field_154" selected="False" />
+            <SelectField field="Field_155" selected="False" />
+            <SelectField field="Field_156" selected="False" />
+            <SelectField field="Field_157" selected="False" />
+            <SelectField field="Field_158" selected="False" />
+            <SelectField field="Field_159" selected="False" />
+            <SelectField field="Field_160" selected="False" />
+            <SelectField field="Field_161" selected="False" />
+            <SelectField field="Field_162" selected="False" />
+            <SelectField field="Field_163" selected="False" />
+            <SelectField field="Field_164" selected="False" />
+            <SelectField field="Field_165" selected="False" />
+            <SelectField field="Field_166" selected="False" />
+            <SelectField field="Field_167" selected="False" />
+            <SelectField field="Field_168" selected="False" />
+            <SelectField field="Field_169" selected="False" />
+            <SelectField field="Field_170" selected="False" />
+            <SelectField field="Field_171" selected="False" />
+            <SelectField field="Field_172" selected="False" />
+            <SelectField field="Field_173" selected="False" />
+            <SelectField field="Field_174" selected="False" />
+            <SelectField field="Field_175" selected="False" />
+            <SelectField field="Field_176" selected="False" />
+            <SelectField field="Field_177" selected="False" />
+            <SelectField field="Field_178" selected="False" />
+            <SelectField field="Field_179" selected="False" />
+            <SelectField field="Field_180" selected="False" />
+            <SelectField field="Field_181" selected="False" />
+            <SelectField field="Field_182" selected="False" />
+            <SelectField field="Field_183" selected="False" />
+            <SelectField field="Field_184" selected="False" />
+            <SelectField field="Field_185" selected="False" />
+            <SelectField field="Field_186" selected="False" />
+            <SelectField field="Field_187" selected="False" />
+            <SelectField field="Field_188" selected="False" />
+            <SelectField field="Field_189" selected="False" />
+            <SelectField field="Field_190" selected="False" />
+            <SelectField field="Field_191" selected="False" />
+            <SelectField field="Field_192" selected="False" />
+            <SelectField field="Field_193" selected="False" />
+            <SelectField field="Field_194" selected="False" />
+            <SelectField field="Field_195" selected="False" />
+            <SelectField field="Field_196" selected="False" />
+            <SelectField field="Field_197" selected="False" />
+            <SelectField field="Field_198" selected="False" />
+            <SelectField field="Field_199" selected="False" />
+            <SelectField field="Field_200" selected="False" />
+            <SelectField field="Field_201" selected="False" />
+            <SelectField field="Field_202" selected="False" />
+            <SelectField field="Field_203" selected="False" />
+            <SelectField field="Field_204" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="210" y="234" width="156" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Small number of records were imported wrong because of commas in text description field; remove those rows and the extra columns</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="TextPreProcessing">
+        <Position x="498" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <addedStopwords>
+          </addedStopwords>
+          <defaultStopwords>true</defaultStopwords>
+          <digits>false</digits>
+          <field>Description</field>
+          <language>EN</language>
+          <lemmatize>false</lemmatize>
+          <punctuation>true</punctuation>
+          <stopwords>false</stopwords>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove punctuation (optional step)</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="Python" EngineDllEntryPoint="TextPreProcessing\text_preprocessing_engine.py" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="378" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Label] in ('Household', 'Electronics', 'Books', 'Clothing &amp; Accessories')</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Label] in ('Household', 'Electronics', 'Books', 'Clothing &amp; Accessories')</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="594" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="Topics" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Household</c>
+            </r>
+            <r>
+              <c>Electronics</c>
+            </r>
+            <r>
+              <c>Books</c>
+            </r>
+            <r>
+              <c>Clothing &amp; Accessories</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="582" y="618" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Possible categories</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="593" y="41" width="553" height="349" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Text Classification</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Text Classification</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="12">
+          <GuiSettings Plugin="Predict">
+            <Position x="846" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <schemaID>Tools.Predict.2</schemaID>
+              <DesignerVersion />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Predict Values</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="Python" EngineDllEntryPoint="Predict\main.py" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1038" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="TextClassification">
+            <Position x="738" y="125" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AlgoParamFrom>0</AlgoParamFrom>
+              <AlgoParamTo>1</AlgoParamTo>
+              <Algorithm>automode</Algorithm>
+              <AnalyzerOption>word</AnalyzerOption>
+              <CVOption>3</CVOption>
+              <DocFrequency>1</DocFrequency>
+              <LabelFieldTraining>Label</LabelFieldTraining>
+              <LabelFieldValidation>Label</LabelFieldValidation>
+              <Loss>squared_hinge</Loss>
+              <NumSteps>2</NumSteps>
+              <Penalty>l2</Penalty>
+              <ProcessingTimeOption>short</ProcessingTimeOption>
+              <TextFieldTraining>Description_processed</TextFieldTraining>
+              <TextFieldValidation>Description</TextFieldValidation>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="Python" EngineDllEntryPoint="TextClassification\text_classification_engine.py" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="882" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="882" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings>
+            <Position x="942" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="ChiSquare">True</Value>
+              <Value name="Var1 Chi">Label</Value>
+              <Value name="Var2 Chi">Prediction</Value>
+              <Value name="NoChiSquare">False</Value>
+              <Value name="Var1">Description</Value>
+              <Value name="Var2">Description</Value>
+              <Value name="Var3" />
+              <Value name="Var4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1062" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1062" y="306" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings>
+            <Position x="630" y="125" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="estimation pct">66</Value>
+              <Value name="validation pct">17</Value>
+              <Value name="rand seed">1</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="618" y="305" width="100" height="60" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Split data into training, validation, and testing</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="726" y="306" width="100" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Train the text classification model</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="834" y="306" width="100" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Score new data</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="942" y="306" width="100" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Compare predictions to known labels</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="737" y="413" width="313" height="301" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Zero Shot Text Classification</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Zero Shot Text Classification</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="26">
+          <GuiSettings>
+            <Position x="846" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="ChiSquare">True</Value>
+              <Value name="Var1 Chi">Label</Value>
+              <Value name="Var2 Chi">Description</Value>
+              <Value name="NoChiSquare">False</Value>
+              <Value name="Var1">Description</Value>
+              <Value name="Var2">Description</Value>
+              <Value name="Var3" />
+              <Value name="Var4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\ContingencyTable.yxmc" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="966" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="966" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="966" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="810" y="630" width="100" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Compare predictions to known labels</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="ZeroShotTextClassification">
+            <Position x="762" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <LabelField>Topics</LabelField>
+              <MultiCheckbox>false</MultiCheckbox>
+              <TextField>Description_processed</TextField>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="Python" EngineDllEntryPoint="ZeroShotTextClassification\zero_shot_text_classification_engine.py" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="25" Connection="Labels" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Holdout" />
+      <Destination ToolID="25" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="PredictedData" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Model" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Evaluation" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Model" />
+      <Destination ToolID="12" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Holdout" />
+      <Destination ToolID="12" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Report" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Data" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Interactive Pivot" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Estimation" />
+      <Destination ToolID="14" Connection="Training" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Validation" />
+      <Destination ToolID="14" Connection="Validation" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Data" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Report" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Interactive Pivot" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Data" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Text Classification &amp; Zero Shot Text Classification</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="c46d1fc2-31a1-4ddd-a5cb-85735df27e70" />
+      <Telemetry>
+        <PreviousWorkflowId value="31e44f8a-4bb1-4abf-becf-4c1db23c2d54" />
+        <OriginWorkflowId value="31e44f8a-4bb1-4abf-becf-4c1db23c2d54" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
