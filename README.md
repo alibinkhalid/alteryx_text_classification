@@ -38,5 +38,5 @@ Contingency Table tools quantified the accuracy of both text classification meth
 
 The Text Classification tool, which was trained specifically to the dataset (but not the specific data that was scored) performed even better, with 95.9% accuracy (1844+1449+1265+3224 / 8113).
 
-(![The Text Classification tool](https://github.com/alibinkhalid/alteryx_text_classification/blob/main/Result%202.png)
+![The Text Classification tool](https://github.com/alibinkhalid/alteryx_text_classification/blob/main/Result%202.png)
 
