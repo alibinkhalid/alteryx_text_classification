@@ -1,4 +1,4 @@
-# alteryx_text_classification
+# Alteryx Text Classification
 
 ## Overview
 This post will focus on the Text Classification and Zero-Shot Text Classification tools and includes a demo that sorts e-commerce listings from this Kaggle dataset into four categories: Household, Electronics, Books, and Clothing & Accessories.  8,113 records were classified, totaling 934,619 words.  An average employee might take over 65 hours to just read all 8,113 records. The provided workflow took about 30 minutes to create and 2.5 hours to run both Text Classification and Zero-Shot Text Classification, unlocking over 60 hours of productivity for this single task
