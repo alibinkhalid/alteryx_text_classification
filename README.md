@@ -36,6 +36,9 @@ To configure the tool, select the columns with text and labels for both the trai
 Contingency Table tools quantified the accuracy of both text classification methods. Zero-shot Text Classification accurately classified products as Books, Clothing & Accessories, Electronics, or Household 75.3% of the time (1100+1351+1125+2530 / 8113). 
 ![Contingency Table tools](https://github.com/alibinkhalid/alteryx_text_classification/blob/main/Result%201.png)
 
+
+Inspired by ![rachel_k](https://community.alteryx.com/t5/user/viewprofilepage/user-id/331578)
+
 The Text Classification tool, which was trained specifically to the dataset (but not the specific data that was scored) performed even better, with 95.9% accuracy (1844+1449+1265+3224 / 8113).
 
 ![The Text Classification tool](https://github.com/alibinkhalid/alteryx_text_classification/blob/main/Result%202.png)
